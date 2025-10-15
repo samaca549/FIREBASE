@@ -1,6 +1,8 @@
 import json
 import os
 from typing import Any, Dict, Optional
+from dotenv import load_dotenv
+load_dotenv()
 
 try:
     import firebase_admin
