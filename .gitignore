@@ -1,0 +1,51 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.pyproj
+*.sln
+
+# === Entorno virtual ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Configuración y variables de entorno ===
+.env
+*.env
+*.ini
+*.cfg
+*.json
+!requirements.json  # excepción si usas un JSON que sí quieres subir
+serviceAccountKey.json
+
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Archivos de logs y cache ===
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+.idea/
+.vscode/
+__MACOSX/
+
+# === Archivos de test o ejemplos ===
+*.spec
+*.egg-info/
+dist/
+build/
+
+# === Carpetas de Firebase o cloud ===
+.firebase/
+.firestore/
